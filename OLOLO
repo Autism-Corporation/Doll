@@ -41,7 +41,10 @@
 #words(зашквар) |
 #words(вскукарек) |
 #words(desktop т) |
+#words(desktop t) |
+#words(desktop-t) |
 #words(десктоп т) |
+#words(десктоп-т) |
 #words(webm) |
 #words(вебм) |
 #words(шебм) |
@@ -55,7 +58,7 @@
 #words(не еот) |
 #words(фап тр) |
 #words(фаптр) |
-#words(фап#words(тр) |
+#words(фап-тр) |
 #words(груснотред) |
 #words(конфоч) |
 #words(/telegram.) |
