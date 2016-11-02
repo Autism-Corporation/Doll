@@ -1,0 +1,100 @@
+#words( mobile ) |
+#words( рашка) |
+#words(+15) |
+#words(/ hw / mobi / pr /) |
+#words(/telegram.) |
+#words(2к16) |
+#words(>2016) |
+#words(>бабах) |
+#words(desktop т) |
+#words(top tier) |
+#words(webm) |
+#words(worldroulette.ru) |
+#words(азаза) |
+#words(анимублядский) |
+#words(анкетотред) |
+#words(анус себе) |
+#words(боздо) |
+#words(ватник) |
+#words(вести себя как пик) |
+#words(вскукарек) |
+#words(грустнотред) |
+#words(дабл) |
+#words(двачеры готовы спорить) |
+#words(дебик) |
+#words(десктоп т) |
+#words(десктоп-т) |
+#words(добропочта) |
+#words(дратути) |
+#words(дудец) |
+#words(если в этом треде ты напишешь) |
+#words(есть одна тян) |
+#words(за щеку,проверяй) |
+#words(зароботка в интернете) |
+#words(захвати европу) |
+#words(зашквар) |
+#words(как же плохо без) |
+#words(как же хочется) |
+#words(как зовут этого актера) |
+#words(какел) |
+#words(какоешь) |
+#words(кекнул) |
+#words(когда мы в клубе) |
+#words(конфоч) |
+#words(лалка) |
+#words(либерал) |
+#words(либераст) |
+#words(маневры) |
+#words(маня ) |
+#words(манямирок) |
+#words(мда) |
+#words(мхех) |
+#words(мэйлей) |
+#words(не еот) |
+#words(не спеши скрывать) |
+#words(ольг) |
+#words(опущ) |
+#words(ответы: >>) |
+#words(оцени тян) |
+#words(пидораха) |
+#words(пидорахен) |
+#words(пидорашк) |
+#words(писоешь) |
+#words(писос) |
+#words(под шкон) |
+#words(проекции) |
+#words(пук ) |
+#words(рейт однокласс) |
+#words(рофл) |
+#words(рряя) |
+#words(русня) |
+#words(сасай) |
+#words(саси) |
+#words(смачно) |
+#words(соус ) |
+#words(спасибо, мистер) |
+#words(твои действия?) |
+#words(твои оправдания) |
+#words(тнус) |
+#words(топ тир) |
+#words(топчик) |
+#words(ты бы и собак) |
+#words(фап тр) |
+#words(фап-тр) |
+#words(фаптр) |
+#words(хохл) |
+#words(хохол) |
+#words(хочу вести себя как) |
+#words(хрю ) |
+#words(чмо) |
+#words(что за аниме?) |
+#words(что за тайтл) |
+#words(что за трек) |
+#ihash(196826207) |
+#ihash(201512031)
+
+#rep(/ - /ig,-)
+#rep(/> /ig,>)
+#rep(/thead|тредж|nhtl/ig,тред)
+#rep(/fap/ig,фап)
+#rep(/вебм|шебм|цуиь|цунь|цуим|dt,v/ig,WebM)
