@@ -6,9 +6,12 @@
 #words(desktop т) |
 #words(top tier) |
 #words(worldroulette.ru) |
+#words(живтоне чочо) |
 #words(азаза) |
 #words(анкетотред) |
 #words(анус себе) |
+#words(ачивок тред) |
+#words(богин) |
 #words(боздо) |
 #words(ватник) |
 #words(вести себя как пик) |
@@ -16,7 +19,6 @@
 #words(грустнотред) |
 #words(дабл) |
 #words(двачеры готовы спорить) |
-#words(дебик) |
 #words(десктоп тред) |
 #words(добропочта) |
 #words(дратути) |
@@ -26,11 +28,13 @@
 #words(заработка в интернете) |
 #words(захвати европу) |
 #words(зашквар) |
+#words(имя?) |
 #words(как же плохо без) |
 #words(как же хочется) |
 #words(как зовут этого актера) |
 #words(какел) |
 #words(кекнул) |
+#words(когда мы в клубе) |
 #words(когда мы в клубе) |
 #words(конфоч) |
 #words(лалка) |
@@ -42,6 +46,7 @@
 #words(манямирок) |
 #words(мда) |
 #words(мхех) |
+#words(найс) |
 #words(не еот) |
 #words(не спеши скрывать) |
 #words(ольг) |
@@ -59,30 +64,32 @@
 #words(сасай) |
 #words(саси) |
 #words(смачно) |
-#words(соус ) |
-#words(соус?) |
 #words(твои действия?) |
 #words(твои оправдания) |
 #words(тнус) |
 #words(топ тир) |
 #words(топчик) |
 #words(ты бы и собак) |
+#words(у тебя никогда не будет) |
 #words(фап тред) |
 #words(фаптред) |
 #words(хочу вести себя как) |
 #words(хрю ) |
 #words(чмо) |
-#words(что за аниме?) |
+#words(что за аним) |
 #words(что за тайтл) |
 #words(что за трек) |
-#words(я тян) |
-#ihash(196826207) |
-#ihash(201512031) | (
+#words(я тян) | (
     #words(+15 ) |
     #words(+7.5 ) |
     #words(+7,5 )
+) | (
+    #words(0\\0\)) |
+    #words(0\)\)) |
+    #words(\)\)\))
 ) |
-(#words(2к16) | #words(>2016)) | (
+(#words(2к16) | #words(>2016)) |
+(#words(дебик) | #words(дебеч)) | (
     #words(какоешь) |
     #words(писоешь) |
     #words(писос)
@@ -90,18 +97,27 @@
 (#words(либерал) | #words(либераст)) |
 (#words(пидорахен) | #words(пидорашк)) |
 (#words(пук ) | #words(>пук)) | (
+    #words(соус) |
+    #words(кепчук) |
+    #words(майонез)
+) | (
     #words(спасибо, мистер) |
     #words(дудец) |
     #words(мэйлей)
 ) |
 (#words(хохл) | #words(хохол)) |
-(#words[b,](webm) & !#words(блядский ))
+(#words[b,](webm) & !#words(блядский )) | (
+    (#words(ролл) | #words(roll)) &
+    !(#words(трол) | #words(крол))
+) |
+#ihash(196826207) |
+#ihash(201512031)
 
 #rep(/ - /ig,-)
+#rep(/-тред| - тред/ig, тред)
 #rep(/> /ig,>)
-#rep(/thead|тредж|nhtl/ig,тред)
 #rep(/fap/ig,фап)
+#rep(/thead|thread|тредж|nhtl/ig,тред)
 #rep(/вебм|шебм|цуиь|цунь|цуим|dt,v/ig,WebM)
 #rep(/девушка|шкура/ig,тян)
 #rep(/парень/ig,кун)
-#rep(/-тред| - тред/ig, тред)
