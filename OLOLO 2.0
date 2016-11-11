@@ -117,7 +117,7 @@
 #rep(/-тред| - тред/ig, тред)
 #rep(/> /ig,>)
 #rep(/fap/ig,фап)
-#rep(/thead|thread|тредж|nhtl/ig,тред)
+#rep(/thead|тредж|nhtl/ig,тред)
 #rep(/вебм|шебм|цуиь|цунь|цуим|dt,v/ig,WebM)
 #rep(/девушка|шкура/ig,тян)
 #rep(/парень/ig,кун)
