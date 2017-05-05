@@ -1,24 +1,22 @@
-#words( рашка) |
+#words( ольг) |
+#words( рашк) |
 #words(анус себе) |
 #words(ватник) |
 #words(дратути) |
 #words(какел) |
 #words(мхех) |
-#words(ольг) |
-#words(пидораха) |
 #words(рофл) |
 #words(рряя) |
-#words(русня) |
 #words(ты бы и собак) |
-#words(хрю ) | (
-    !#op &
-    (#words(ролл) | #words(roll))
-) | (
+#words(хрю ) |
+#exp(/2[kк]1\d/i) |
+#exp(/[^a-zа-я](?:re|ре)?(?:roll|ролл)/i) |
+#exp(/русн[яюие]/i) |
+(#words(кек) & !#words(кекс)) | (
     #words(+15 ) |
     #words(+7.5 ) |
     #words(+7,5 )
-) |
-(#words(2к1) | #words(>201)) | (
+) | (
     #words(дебик) |
     #words(довн) |
     #words(деб ) |
@@ -47,17 +45,13 @@
     #words(под шкон) |
     #words(зашквар) |
     #words(вскукарек) |
-    #words(desktop т) |
-    #words(десктоп тред) | (
-        #words(webm) |
-        #words(есть одна тян) |
-        #words(не еот) |
-        #words(фап тред) |
-        #words(фаптред) |
-        #words(грустнотред) |
-        #words((добропочта) |
-        #words(злопочта)
-    ) |
+    (#words(desktop т) | #words(десктоп т)) |
+    #words(webm) |
+    #words(есть одна тян) |
+    #words(не еот) |
+    #exp(/фап ?тред/i) |
+    #words(грустнотред) |
+    (#words(добропочта) | #words(злопочта)) |
     #words( mobile ) |
     #words(/ hw / mobi / pr /) |
     #words(ответы: >>) |
@@ -109,11 +103,13 @@
         #words(дабл) |
         #words(трипл)
     )
+) | (
+    #words(пидорахен) |
+    #words(пидораха) |
+    #words(пидорашк)
 ) |
-(#words(пидорахен) | #words(пидорашк)) |
 (#words(пук ) | #words(>пук)) |
-(#words(хохл) | #words(хохол)) |
-(#words(кек) & !#words(кекс))
+(#words(хохл) | #words(хохол))
 
 #rep(/ - /ig,-)
 #rep(/> /ig,>)
