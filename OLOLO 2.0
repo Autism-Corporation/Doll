@@ -1,115 +1,117 @@
+#words( mobile ) |
 #words( ольг) |
 #words( рашк) |
+#words( топ) |
+#words( я тян) |
+#words(/ hw / mobi / pr /) |
+#words(>бабах) |
+#words(top tier) |
+#words(vocaroo.com) |
+#words(webm) |
+#words(worldroulette.ru) |
+#words(азаза) |
+#words(анкетотред) |
 #words(анус себе) |
+#words(ачивок тред) |
+#words(богин) |
 #words(ватник) |
+#words(вести себя как пик) |
+#words(вскукарек) |
+#words(грустнотред) |
+#words(двачеры готовы спорить) |
 #words(дратути) |
+#words(если в этом треде ты напишешь) |
+#words(есть одна тян) |
+#words(заработка в интернете) |
+#words(захвати европу) |
+#words(зашквар) |
+#words(имя?) |
+#words(как же плохо без) |
+#words(как же хочется) |
+#words(как зовут этого актера) |
 #words(какел) |
+#words(когда мы в клубе) |
+#words(лук анон) |
+#words(лучшая девочка) |
+#words(лучший тайтл) |
+#words(маневры) |
+#words(маня) |
 #words(мхех) |
+#words(найс) |
+#words(не еот) |
+#words(не спеши скрывать) |
+#words(опущ) |
+#words(ответы: >>) |
+#words(оцени тян) |
+#words(под шкон) |
+#words(почему у тебя до сих пор нету ) |
+#words(проекции) |
+#words(рейт одноклас) |
 #words(рофл) |
 #words(рряя) |
+#words(смачно) |
+#words(твои действия?) |
+#words(твои оправдания) |
+#words(тнус) |
+#words(топ тир) |
 #words(ты бы и собак) |
+#words(у тебя никогда не будет) |
+#words(хайп) |
+#words(хочу вести себя как) |
 #words(хрю ) |
+#words(челик) |
+#words(чмо) |
+#words(что за аним) |
+#words(что за тайтл) |
+#words(что за трек) |
 #exp(/2[kк]1\d/i) |
 #exp(/[^a-zа-я](?:re|ре)?(?:roll|ролл)/i) |
+#exp(/вр[её]+ти+/i) |
 #exp(/русн[яюие]/i) |
-(#words(кек) & !#words(кекс)) | (
+#exp(/фап ?тред/i) | (
+    !#op &
+    (#words(бамп) | #words(bump))
+) | (
     #words(+15 ) |
     #words(+7.5 ) |
     #words(+7,5 )
-) | (
+) |
+(#words(desktop т) | #words(десктоп т)) | (
     #words(дебик) |
     #words(довн) |
-    #words(деб ) |
+    #words( деб ) |
     #words(дебеч)
-) | (
+) |
+(#words(добропочта) | #words(злопочта)) |
+(#words(за щеку) | #words(за щёку)) | (
     #words(какоешь) |
     #words(писоешь) |
     #words(писос)
 ) |
 (#words(либерал) | #words(либераст)) |
-(#words(лолк) | #words(лалк)) | (
-    #words(мда) |
-    #words(мде) |
-    (#words(за щеку) | #words(за щёку)) |
-    (#words(саси) | #words(сасай)) |
-    #words(>бабах) |
-    #words(азаза) |
-    #words(найс) |
-    #words( топ) |
-    #words(чмо) |
-    #words(проекции) |
-    #words(маневры) |
-    #words(маня) |
-    #words(смачно) |
-    #words(опущ) |
-    #words(под шкон) |
-    #words(зашквар) |
-    #words(вскукарек) |
-    (#words(desktop т) | #words(десктоп т)) |
-    #words(webm) |
-    #words(есть одна тян) |
-    #words(не еот) |
-    #exp(/фап ?тред/i) |
-    #words(грустнотред) |
-    (#words(добропочта) | #words(злопочта)) |
-    #words( mobile ) |
-    #words(/ hw / mobi / pr /) |
-    #words(ответы: >>) |
-    #words(не спеши скрывать) |
-    #words(двачеры готовы спорить) |
-    #words(если в этом треде ты напишешь) |
-    #words(как же хочется) |
-    #words(как же плохо без) |
-    #words(когда мы в клубе) |
-    #words(твои действия?) |
-    #words(worldroulette.ru) |
-    #words(анкетотред) |
-    #words(вести себя как пик) |
-    #words(захвати европу) |
-    #words(как зовут этого актера) |
-    #words(когда мы в клубе) |
-    #words(заработка в интернете) |
-    #words(оцени тян) |
-    #words(top tier) |
-    #words(топ тир) |
-    #words(хочу вести себя как) |
-    #words(твои оправдания) |
-    #words(рейт одноклас) |
-    #words(почему у тебя до сих пор нету ) |
-    #words(лук анон) |
-    #words(у тебя никогда не будет) | (
-        #words(спасибо, мистер) |
-        #words(дудец) |
-        #words(мэйлей)
-    ) |
-    #words(тнус) | (
-        #words(соус) |
-        #words(кепчук) |
-        #words(майонез)
-    ) |
-    #words(что за аним) |
-    #words(что за трек) |
-    #words(что за тайтл) |
-    #words(лучшая девочка) |
-    #words(лучший тайтл) |
-    #words(имя?) |
-    #words(богин) |
-    #words(ачивок тред) |
-    #words( я тян) | (
-        !#op &
-        (#words(бамп) | #words(bump))
-    ) | (
-        #op &
-        #words(дабл) |
-        #words(трипл)
-    )
-) | (
+(#words(лолк) | #words(лалк)) |
+(#words(мда) | #words(мде)) | (
     #words(пидорахен) |
     #words(пидораха) |
     #words(пидорашк)
 ) |
 (#words(пук ) | #words(>пук)) |
-(#words(хохл) | #words(хохол))
+(#words(саси) | #words(сасай)) | (
+    #words(соус) |
+    #words(кепчук) |
+    #words(майонез)
+) | (
+    #words(спасибо, мистер) |
+    #words(дудец) |
+    #words(мэйлей)
+) |
+(#words(хохл) | #words(хохол)) |
+(#words(шарит) | #words(шаришь)) |
+(#words(кек) & !#words(кекс)) | (
+    #op &
+    #words(дабл) |
+    #words(трипл)
+)
 
 #rep(/ - /ig,-)
 #rep(/> /ig,>)
