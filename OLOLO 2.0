@@ -1,7 +1,6 @@
 #words( mobile ) |
 #words( ольг) |
 #words( рашк) |
-#words( топ) |
 #words( я тян) |
 #words(/ hw / mobi / pr /) |
 #words(>бабах) |
@@ -68,9 +67,12 @@
 #exp(/[^a-zа-я](?:re|ре)?(?:roll|ролл)/i) |
 #exp(/вр[её]+ти+/i) |
 #exp(/русн[яюие]/i) |
+#exp(/топ[её]/i) |
 #exp(/фап ?тред/i) | (
     !#op &
-    (#words(бамп) | #words(bump))
+    (#words(бамп) | #words(bump)) &
+    !#img &
+    !#video
 ) | (
     #words(+15 ) |
     #words(+7.5 ) |
